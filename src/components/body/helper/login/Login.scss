@@ -1,0 +1,33 @@
+.LoginForm
+{
+    position: relative;
+    padding-top: 7em;
+    padding-bottom: 10em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .form
+    {
+        width: 40%;
+        padding: 3vw;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.08);
+        .MuiFormControl-root
+        {
+            margin: 0px !important; 
+        }
+        .inputLogin
+        {
+           justify-content: center;
+        }
+        .coverTextField
+        {
+            padding-top: 3vh;
+            padding-bottom: 3vh;
+        }
+        .buttonLogin
+        {
+            float: right;
+            transform: translateY(3vh);
+        }
+    }
+}
